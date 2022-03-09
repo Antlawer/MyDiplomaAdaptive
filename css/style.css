@@ -809,7 +809,7 @@ footer {
 
   .products {
     flex-wrap: wrap;
-    padding: 0 5%;
+    padding: 0 35px;
     justify-content: start;
     margin-left: auto;
     margin-right: auto;
@@ -834,8 +834,16 @@ footer {
     margin-right: 30px;
   }
 
+  .product_img {
+    width: 100%;
+  }
+
+  .product_picture {
+    width: 100%;
+  }
+
   .product_box {
-    max-width: 292px;
+    max-width: 100%;
   }
 
   aside {
@@ -864,6 +872,7 @@ footer {
     padding: 30px 4.5% 0;
     background-image: url("../img/banner-mobile.jpg");
     min-height: 100vh;
+    min-width: 100vw;
   }
 
   .open_button {
@@ -886,6 +895,7 @@ footer {
 
   .navigation {
     padding: 0;
+    width: 90%
   }
 
   h1 {
@@ -973,7 +983,15 @@ footer {
 
   .products {
     flex-direction: column;
-    padding: 0 8%;
+    padding: 0 4%;
+  }
+
+  .product_img {
+    width: 85%;
+  }
+
+  .product_picture {
+    width: 100%;
   }
 
   .product_menu {
@@ -981,9 +999,9 @@ footer {
   }
 
   .product_box {
-    padding: 25px 15px;
+    padding: 25px 0;
     outline-offset: 15px;
-    width: 285px;
+    width: 86%;
   }
 
   .product_menu:nth-child(n+2) {
